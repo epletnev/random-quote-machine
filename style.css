@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightblue;
+}
+
+#quote-box {
+  width: 500px;
+  padding: 40px 60px;
+  border-radius: 1.5em;
+}
+
+#title {
+  font-size: 2em;
+  text-align: center;
+  color: lightgray;
+}
+
+#text {
+  font-size: 1.5em;
+  text-align: center;
+  color: lightgray;
+}
+
+#author {
+  font-size: 1.2em;
+  text-align: right;
+  color: lightgray;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+}
+
+#new-quote {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 1em;
+  background-color: lightgray;
+}
+
+#new-quote:focus {
+  outline: none;
+  border: none;
+}
+
+#tweet-quote {
+  font-size: 1.5em;
+}
